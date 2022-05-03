@@ -1,0 +1,34 @@
+# main links
+main:
+  - title: "Home"
+    url: https://jsw6701.github.io/
+
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: https://github.com/jsw6701
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "Drone"
+    url: /categories/drone/
+  - title: "Java"
+    url: /categories/java/
+  - title: "Algorithm"
+    url: /categories/algorithm/
+  - title: "Web"
+    url: /categories/web/
+  - title: "Backend"
+    url: /categories/git/
+  - title: "GitHub Blog"
+    url: /categories/github-blog/
+  - title: "essay"
+    url: /categories/essay/

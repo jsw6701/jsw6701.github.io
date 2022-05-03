@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Aqua skin
+   ========================================================================== */
+
+/* Colors */
+$gray                       : #1976d2 !default;
+$dark-gray                  : mix(#000, $gray, 40%) !default;
+$darker-gray                : mix(#000, $gray, 60%) !default;
+$light-gray                 : mix(#fff, $gray, 50%) !default;
+$lighter-gray               : mix(#fff, $gray, 90%) !default;
+
+$body-color                 : #fff !default;
+$background-color           : #f0fff0 !default;
+$code-background-color      : #0d4661 !default;
+$code-background-color-dark : $light-gray !default;
+$text-color                 : black !default;
+$border-color               : $lighter-gray !default;
+
+$primary-color              : $gray !default;
+$success-color              : #27ae60 !default;
+$warning-color              : #e67e22 !default;
+$danger-color               : #c0392b !default;
+$info-color                 : #03a9f4 !default;
+
+/* links */
+$link-color                 : $info-color !default;
+$link-color-hover           : mix(#000, $link-color, 25%) !default;
+$link-color-visited         : mix(#fff, $link-color, 25%) !default;
+$masthead-link-color        : $primary-color !default;
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%) !default;
+$mark-highlight-color: rgba($primary-color, 0.15) !default;
+$block-quote-background-color: rgba($primary-color, 0.1) !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
+
+.page__content {
+  a,
+  a:visited {
+    color: inherit;
+  }
+}
+
+/* next/previous buttons */
+.pagination--pager {
+  color: $text-color;
+  background-color: rgba($primary-color, 0.8);
+  border-color: transparent;
+
+  &:visited {
+    color: $text-color;
+  }
+}
+
