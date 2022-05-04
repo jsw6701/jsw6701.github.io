@@ -1,31 +1,92 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      {% for post in site.posts %}
-        {% unless post.published == false %}
-        <url>
-          <loc>{{ site.url }}{{ post.url }}</loc>
-          {% if post.sitemap.lastmod %}
-            <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-          {% elsif post.date %}
-            <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-          {% else %}
-            <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-          {% endif %}
-          {% if post.sitemap.changefreq %}
-            <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-          {% else %}
-            <changefreq>monthly</changefreq>
-          {% endif %}
-          {% if post.sitemap.priority %}
-            <priority>{{ post.sitemap.priority }}</priority>
-          {% else %}
-            <priority>0.5</priority>
-          {% endif %}
-        </url>
-        {% endunless %}
-      {% endfor %}
-    </urlset>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jsw6701.github.io/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/about/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/drone/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/java/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/algorithm/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/web/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/github-blog/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/essay/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/algorithm/baekjoon1002/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/algorithm/baekjoon9020/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/algorithm/baekjoon4948/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/algorithm/baekjoon1929/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/Drone/Dji/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/page2/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/algorithm/baekjoon11653/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://jsw6701.github.io/categories/</loc>
+  <lastmod>2022-05-04T11:35:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
