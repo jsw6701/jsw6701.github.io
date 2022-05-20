@@ -1,6 +1,6 @@
 ---
 title: "[Door lock] 아두이노 RC522로 도어락 제어하기(1)"
-excerpt: "Arduino RC522 Door lock control "
+excerpt: "Arduino RC522 Door lock control"
 
 categories:
   - Embedded
