@@ -1,9 +1,9 @@
 ---
-title: "Embeded"
+title: "Embedded"
 layout: category
-permalink: /categories/embeded/
+permalink: /categories/embedded/
 author_profile: true
-taxonomy: Embeded
+taxonomy: Embedded
 sidebar:
   nav: "categories"
 ---
