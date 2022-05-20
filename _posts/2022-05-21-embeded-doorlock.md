@@ -1,13 +1,13 @@
 ---
-title: "[Embeded] 아두이노 RC522로 도어락 제어하기(1)"
-excerpt: "Arduino RC522 Doorlock control "
+title: "[Door lock] 아두이노 RC522로 도어락 제어하기(1)"
+excerpt: "Arduino RC522 Door lock control "
 
 categories:
-  - Embeded
+  - Embedded
 tags:
-  - [Embeded]
+  - [Embedded]
 
-permalink: /Embeded/doorlock/
+permalink: /embedded/door lock/
 
 toc: true
 toc_sticky: true
@@ -22,7 +22,7 @@ last_modified_at: 2022-05-21
 
 아두이노로 RFID 기능을 구현하기 위해서는 RC522라는 부품이 필요하다.
 
-부품에 포함된 카드와 열쇠고리형 카드를 이용하여 원래 RFID를 제어할 수 있는데 심심해서 검색하던 와중에 학생증같은 카드로도 RFID를 제어할 수 있다는 소식을 접했다.
+부품에 포함된 카드와 열쇠고리형 카드를 이용하여 원래 RFID 제어할 수 있는데 심심해서 검색하던 와중에 학생증같은 카드로도 RFID 제어할 수 있다는 소식을 접했다.
 
 바로 다음날 한 번 구현해보고 싶은 것이 생겨서 첫차타고 바로 연구실로 향했다.
 
@@ -48,9 +48,9 @@ last_modified_at: 2022-05-21
 
 스위치를 보면 평범한 아두이노에서 쓰는 택트 스위치와 흡사하게 생겼다.
 
-대각선 방향으로 GND와 신호를 주는 곳을 결정해주고 pinMode를 이용하여 통제해주면 된다.
+대각선 방향으로 GND 신호를 주는 곳을 결정해주고 pinMode 이용하여 통제해주면 된다.
 
-```aidl
+```
 #include <SPI.h> 
 #include <MFRC522.h> 
 #define RST_PIN 9 
@@ -75,9 +75,9 @@ void loop() {
   mfrc522.PICC_DumpToSerial(&(mfrc522.uid)); 
 }
 ```
-위에 보이는 코드로 이제 랩실 인원들의 학생증을 가져다대면 UID와 나머지 정보들이 막 나오는데 사실 지금 필요한 것은 UID뿐이니 UID를 하나하나 아래의 코드에 넣어주면 된다.
+위에 보이는 코드로 이제 랩실 인원들의 학생증을 가져다대면 UID, 나머지 정보들이 막 나오는데 사실 지금 필요한 것은 UID뿐 UID 하나하나 아래의 코드에 넣어주면 된다.
 
-```aidl
+```
 #include <SPI.h>
 #include <MFRC522.h>  
  
@@ -128,9 +128,9 @@ void loop(){
 }
 ```
 
-쉽게 말하면 저기 주석에 써놨지만 0x00 이라고 되어있는 부분에 0x 뒤에 두자리만 바꿔주면 UID를 맞게 넣어줄 수 있다.
+쉽게 말하면 저기 주석에 써놨지만 0x00 이라고 되어있는 부분에 0x 뒤에 두자리만 바꿔주면 UID 맞게 넣어줄 수 있다.
 
-이제 여기까지 했다면 납땜을 조금해주면 충분히 이미 학생증으로 RFID를 사용하여 도어락을 열어줄 수 있게 되었을 것이다.
+이제 여기까지 했다면 납땜을 조금해주면 충분히 이미 학생증으로 RFID 사용하여 도어락을 열어줄 수 있게 되었을 것이다.
 
 하지만 나는 실제로 사용을 목적으로 구현중이기 때문에 문의 안쪽과 바깥쪽의 선의 연결과 여러가지를 신경써줘야 한다.
 
