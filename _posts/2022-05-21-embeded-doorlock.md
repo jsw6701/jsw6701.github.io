@@ -50,6 +50,7 @@ last_modified_at: 2022-05-21
 
 대각선 방향으로 GND 신호를 주는 곳을 결정해주고 pinMode 이용하여 통제해주면 된다.
 
+### RC522를 이용해 Uid 얻기 위한 코드
 ```
 #include <SPI.h> 
 #include <MFRC522.h> 
@@ -77,6 +78,7 @@ void loop() {
 ```
 위에 보이는 코드로 이제 랩실 인원들의 학생증을 가져다대면 UID, 나머지 정보들이 막 나오는데 사실 지금 필요한 것은 UID뿐 UID 하나하나 아래의 코드에 넣어주면 된다.
 
+### Uid를 이용하여 도어락 제어하는 코드
 ```
 #include <SPI.h>
 #include <MFRC522.h>  
