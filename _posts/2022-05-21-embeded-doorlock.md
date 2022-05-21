@@ -5,7 +5,7 @@ excerpt: "Arduino RC522 Door lock control"
 categories:
   - Embedded
 tags:
-  - [embedded, 아두이노, rc522, rfid, 도어락, 제어]
+  - [embedded, 아두이노, "rc522", rfid, 도어락, 제어]
 
 permalink: /embedded/door lock/
 
