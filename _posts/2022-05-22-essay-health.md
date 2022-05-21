@@ -5,7 +5,7 @@ excerpt: "5월 셋째주 헬스 기록"
 categories:
   - Essay
 tags:
-  - [Essay, 헬스, 5월, 셋째주]
+  - [essay, 헬스, 5월, 셋째주]
 
 permalink: /essay/health/
 
