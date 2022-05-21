@@ -88,9 +88,10 @@ analytics:
 author:
   name: "jsw6701"
   avatar: "/assets/images/avthm.jpg"
-  #   bio              : "Never regret it."
-  #   location         : "Seoul, Korea"
-  #   email            : "anes53027@gmail.com"
+     bio              : "Never regret it."
+     location         : "Seoul, Korea"
+     email            : "anes53027@gmail.com"
+
   links:
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
