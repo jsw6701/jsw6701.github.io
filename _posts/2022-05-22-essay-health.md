@@ -41,7 +41,7 @@ last_modified_at: 2022-05-22
 
 ### 5월 16일 기록
 
-![5/16](https://jsw6701.github.io/assets/images/posts_img/운동4.jpg)
+![5/16](https://jsw6701.github.io/assets/images/posts_img/운동4.png)
 
 운동 첫 날이라고 해야하나... 이 날 정말 힘들었던 기억이 있다.
 
@@ -59,7 +59,7 @@ last_modified_at: 2022-05-22
 
 ### 5월 17일 기록
 
-![5/17](https://jsw6701.github.io/assets/images/posts_img/운동3.jpg)
+![5/17](https://jsw6701.github.io/assets/images/posts_img/운동3.png)
 
 별 다를 것 없는데 사실 이번 주는 좀 이것 저것하고 기록도 안해놔서 뒤죽박죽 기억이라 정확하지 않다.
 
@@ -93,7 +93,7 @@ last_modified_at: 2022-05-22
 
 ### 5월 19일 기록
 
-![5/19](https://jsw6701.github.io/assets/images/posts_img/운동1.jpg)
+![5/19](https://jsw6701.github.io/assets/images/posts_img/운동1.png)
 
 정말 바쁜 날이였다. 그리고 이상하게 팔이 잘못되었다. 팔 운동을 너무 극한까지 조졌는지 근육통이 심하게 왔다.
 
