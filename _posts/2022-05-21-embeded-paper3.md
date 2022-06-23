@@ -1,6 +1,6 @@
 ---
 title: "[Embeded] 라즈베리 파이를 이용한 병렬 처리 시스템 구축 논문 정리"
-excerpt: "Raspberry Pi Paper Summary 2"
+excerpt: "Raspberry Pi Paper Summary 3"
 
 categories:
   - Embedded
@@ -120,5 +120,7 @@ Hadoop 클러스는 16포트 10 / 100Mbps 이더넷 스위치에 연결된 15개
 각 노드는 고정 IP 주소를 가지며 마스터가 보안 쉘을 사용하는 모든 노드와만 통신할 수 있도록 구성됨
 
 ![논문정리6]("https://jsw6701.github.io/assets/images/posts_img/논문정리6.png")
+
+참고논문 : [https://www.ijcaonline.org/archives/volume178/number42/papakyriakou-2019-ijca-919328.pdf](https://www.ijcaonline.org/archives/volume178/number42/papakyriakou-2019-ijca-919328.pdf)
 
 ---

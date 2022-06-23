@@ -71,4 +71,6 @@ last_modified_at: 2022-06-22
 
 클라우드, 통계 등 다양한 병렬 및 분산 프로그래밍을 활용하여 복잡한 알고리즘 해결 활용 가능
 
+참고논문 : [https://www.koreascience.or.kr/article/CFKO201718459284241.pdf](https://www.koreascience.or.kr/article/CFKO201718459284241.pdf)
+
 ---
