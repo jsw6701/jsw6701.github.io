@@ -39,7 +39,7 @@ last_modified_at: 2022-06-22
 
 노드가 증가할수록 성능 증가폭이 감소 ⇒ 한계점 도달  Because 암달의 법칙 때문
 
-![논문정리2]("https://jsw6701.github.io/assets/images/posts_img/논문정리2.png")
+![논문정리2](https://jsw6701.github.io/assets/images/posts_img/논문정리2.png)
 
 > 암달의 법칙 (Amdal’s law) : 소프트웨어의 병렬화 가능한 부분은 해당 소프트웨어마다 다르고, 개선을 통해서 얻어지는 성능의 향상은 한계가 존재함
 >
@@ -52,7 +52,7 @@ last_modified_at: 2022-06-22
 
 라즈베리 파이 한 대를 사용하여 HPL 수행과 멀티 노드 한 대씩 늘려 실행 시간 측정
 
-![논문정리3]("https://jsw6701.github.io/assets/images/posts_img/논문정리3.png")
+![논문정리3](https://jsw6701.github.io/assets/images/posts_img/논문정리3.png)
 
 비교를 위하여 Intel(R) Core(TM) i5-2410M CPU 2.30GHz 탑재한 랩탑을 같은 조건에서 벤치마킹한 결과 5.044e+00Gflops 의 수행 속도를 보이며, 이는 라즈베리 파이 한대의 30배정도의 해당하는 속도를 보임
 

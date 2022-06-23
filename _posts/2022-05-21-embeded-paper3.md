@@ -51,7 +51,7 @@ last_modified_at: 2022-06-22
   - 150W 3개 스위치 모드 전원 공급 장치
   - 5V 출력(전압 강하 조정으로 5.5V 부스트)
 
-![논문정리4]("https://jsw6701.github.io/assets/images/posts_img/논문정리4.png")
+![논문정리4](https://jsw6701.github.io/assets/images/posts_img/논문정리4.png)
 
 - 소프트웨어 도구
   - Hadoop 2.7.2
@@ -109,7 +109,7 @@ EX) 멀티 테넌시 아키텍처는 SaaS 공급자의 경우 하나의 데이�
 
 하둡은 MapReduce 및 HDFS 방법을 사용하여 데이터 저장 및 분산 데이터 처리를 위한 마스터-슬레이브 아키텍쳐를 가지고 있습니다.
 
-![논문정리5]("https://jsw6701.github.io/assets/images/posts_img/논문정리5.png")
+![논문정리5](https://jsw6701.github.io/assets/images/posts_img/논문정리5.png)
 
 마스터는 Hadoop MapReduce를 사용하여 데이터의 병렬 처리를 수행할 수 있는 클러스터의 노드이며 이름이 지정됩니다.
 
@@ -119,7 +119,7 @@ Hadoop 클러스는 16포트 10 / 100Mbps 이더넷 스위치에 연결된 15개
 
 각 노드는 고정 IP 주소를 가지며 마스터가 보안 쉘을 사용하는 모든 노드와만 통신할 수 있도록 구성됨
 
-![논문정리6]("https://jsw6701.github.io/assets/images/posts_img/논문정리6.png")
+![논문정리6](https://jsw6701.github.io/assets/images/posts_img/논문정리6.png)
 
 참고논문 : [https://www.ijcaonline.org/archives/volume178/number42/papakyriakou-2019-ijca-919328.pdf](https://www.ijcaonline.org/archives/volume178/number42/papakyriakou-2019-ijca-919328.pdf)
 
