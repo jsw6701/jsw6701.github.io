@@ -5,9 +5,9 @@ excerpt: "Raspberry Pi Paper Summary 3"
 categories:
   - Embedded
 tags:
-  - [embedded, 라즈베리파이, RaspberryPi, 논문, 요약, 하둡, Hadoop, 클러스터"
+  - [embedded, 라즈베리파이, RaspberryPi, 논문, 요약, 하둡, Hadoop, 클러스터]
 
-permalink: /embedded/PiPaper2/
+permalink: /embedded/PiPaper3/
 
 toc: true
 toc_sticky: true
