@@ -1,11 +1,11 @@
 ---
-title: "[Embeded] 라즈베리 파이를 이용한 병렬 처리 시스템 구축 논문 정리"
+title: "[Embeded] Benchmarking Raspberry Pi 2 Hadoop Cluster 논문 정리"
 excerpt: "Raspberry Pi Paper Summary 3"
 
 categories:
   - Embedded
 tags:
-  - [embedded, 라즈베리파이, "RaspberryPi", 논문, 요약]
+  - [embedded, 라즈베리파이, RaspberryPi, 논문, 요약, 하둡, Hadoop, 클러스터"
 
 permalink: /embedded/PiPaper2/
 
