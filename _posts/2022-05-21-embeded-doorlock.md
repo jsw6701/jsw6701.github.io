@@ -50,6 +50,10 @@ last_modified_at: 2022-05-21
 
 대각선 방향으로 GND 신호를 주는 곳을 결정해주고 pinMode 이용하여 통제해주면 된다.
 
+### RFID 회로도
+
+![도어락1](https://jsw6701.github.io/assets/images/posts_img/RFIDfzz.png)
+
 ### RC522를 이용해 Uid 얻기 위한 코드
 ```
 #include <SPI.h> 
