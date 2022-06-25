@@ -97,3 +97,7 @@ HC-SR501 모듈의 VCC, GND를 Arduino의 5V, GND에 연결.
 ### 카드가 등록된 사람
 
 [도어락영상2.mp4](https://jsw6701.github.io/assets/images/posts_img/[VAP]도어락영상2.mp4)
+
+<video width="100%" height="100%" controls="controls">
+  <source src="https://jsw6701.github.io/assets/images/posts_img/[VAP]도어락영상2.mp4" type="video/mp4">
+</video>
