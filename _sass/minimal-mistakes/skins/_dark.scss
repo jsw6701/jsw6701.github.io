@@ -36,6 +36,24 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   color: inherit;
 }
 
+/* next/previous buttons */
+.pagination--pager {
+  color: $text-color;
+  background-color: rgba($primary-color, 0.8);
+  border-color: transparent;
+
+  .page__content {
+    a,
+    a:visited {
+      color: inherit;
+    }
+  }
+
+  &:visited {
+    color: $text-color;
+  }
+}
+
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
