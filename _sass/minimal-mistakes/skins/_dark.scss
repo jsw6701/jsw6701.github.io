@@ -4,23 +4,23 @@
 
 /* Colors */
 // $background-color: #252a34 !default;
-$background-color: rgb(44, 41, 41) !default;
+$background-color: rgb(5, 5, 5) !default;
 
 // $text-color: #eaeaea !default;
-$text-color: white !default;
+$text-color: rgb(255, 255, 255) !default;
 // $primary-color: #00adb5 !default;
-$primary-color: rgb(14, 221, 24) !default;
+$primary-color: mix(rgb(14, 221, 24), $background-color, 90%) !default;
 
-$border-color: #ffffff !default;
+$border-color: mix(#000, $background-color, 20%) !default;
 
-$code-background-color: #6b1616 !default;
-$code-background-color-dark: #b41212 !default;
+$code-background-color: mix(#000, $background-color, 20%) !default;
+$code-background-color-dark: mix(#000, $background-color, 20%) !default;
 
 $mark-highlight-color: rgba(114, 240, 41, 0.3) !default;
 $block-quote-background-color: rgba(114, 240, 41, 0.116) !default;
 
 
-$form-background-color: #000 !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix(#000, $background-color, 30%) !default;
 $link-color: mix($primary-color, $text-color, 40%) !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
