@@ -11,10 +11,10 @@ $text-color: #eaeaea !default;
 // $primary-color: #00adb5 !default;
 $primary-color: mix(rgb(14, 221, 24), $background-color, 90%) !default;
 
-$border-color: mix(#000, $background-color, 20%) !default;
+$border-color: mix(#ffffff, $background-color, 20%) !default;
 
-$code-background-color: mix(#000, $background-color, 20%) !default;
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$code-background-color: mix(#ffffff, $background-color, 20%) !default;
+$code-background-color-dark: mix(#ffffff, $background-color, 20%) !default;
 
 $mark-highlight-color: rgba(114, 240, 41, 0.3) !default;
 $block-quote-background-color: rgba(114, 240, 41, 0.116) !default;
