@@ -24,6 +24,8 @@
 
 ## 약력
 
+- GDSC(Google Developer School Clubs) DJU 2기 멤버
+
 - 대진대학교 컴퓨터학술동아리 21년도 회장
 
 - 대진대학교 MESS랩실 소속
