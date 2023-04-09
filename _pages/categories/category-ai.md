@@ -1,7 +1,7 @@
 ---
 title: "AI"
 layout: category
-permalink: /categories/ai/
+permalink: /categories/AI/
 author_profile: true
 taxonomy: AI
 sidebar:
