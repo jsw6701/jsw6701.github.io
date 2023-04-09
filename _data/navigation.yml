@@ -28,9 +28,9 @@ categories:
   - title: "Web"
     url: /categories/web/
   - title: "Backend"
-    url: /categories/ai/
+    url: /categories/backend/
   - title: "AI"
-    url: /categories/github-blog/
+    url: /categories/ai/
   - title: "Essay"
     url: /categories/essay/
   - title: "Embedded"
