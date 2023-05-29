@@ -1,5 +1,5 @@
 ---
-title: "[Spring] CloudType 프로젝트 배포"
+title: "[배포] CloudType 프로젝트 배포"
 excerpt: "CloudType에 간단하게 MariaDB, SpringBoot 배포"
 
 categories:
