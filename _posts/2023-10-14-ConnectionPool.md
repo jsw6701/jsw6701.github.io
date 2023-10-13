@@ -45,6 +45,8 @@ Spring 2.0 부터는 Default 커넥션 풀로 hikariCP를 자동으로 제공해
 
 ## 커넥션 풀 사용 과정
 
+![2](https://jsw6701.github.io/assets/images/posts_img/231013/2.png)
+
 1. 애플리케이션에서 DB 커넥션을 요청한다.
 
 2. 커넥션 풀에서 사용 가능한 커넥션을 찾는다.
